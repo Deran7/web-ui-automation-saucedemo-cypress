@@ -1,0 +1,15 @@
+{
+  "name": "web-ui-automation-saucedemo.com",
+  "version": "1.0.0",
+  "description": "automation web ui cyrpress with pom",
+  "main": "index.js",
+  "repository": "https://github.com/Deran7/web-ui-automation-saucedemo.com.git",
+  "author": "Alderan Robi <alderanrobiaulia@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "babel-plugin-module-resolver": "4.1.0",
+    "cypress": "^12.5.1",
+    "prettier": "^2.8.4"
+  }
+}

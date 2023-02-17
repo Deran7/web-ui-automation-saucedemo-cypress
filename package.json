@@ -11,5 +11,9 @@
     "babel-plugin-module-resolver": "4.1.0",
     "cypress": "^12.5.1",
     "prettier": "^2.8.4"
+  },
+
+  "scripts": {
+    "cy:open": "cypress open"
   }
 }

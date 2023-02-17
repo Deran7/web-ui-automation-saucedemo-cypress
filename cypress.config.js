@@ -7,7 +7,7 @@ module.exports = defineConfig({
   chromeWebSecurity: false,
   defaultCommandTimeout: 10000,
   env: {
-    baseUrl: 'https://www.saucedemo.com/'
+    baseUrl: 'https://www.saucedemo.com'
   },
   e2e: {
     setupNodeEvents(on) {
@@ -19,7 +19,7 @@ module.exports = defineConfig({
             '@tests': './tests',
             '@helpers': './tests/helpers',
             '@pages' : './tests/pages',
-            '@scenarios' : './tests/scenarios'
+            '@scenarios' : './tests/scenarios',
           },
         },
       ]);

@@ -7,16 +7,15 @@
   "author": "Alderan Robi <alderanrobiaulia@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.6.0",
     "@cypress/browserify-preprocessor": "^3.0.2",
     "babel-plugin-module-resolver": "4.1.0",
-    "cypress": "^12.5.1",
     "prettier": "^2.8.4"
   },
+
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^7.6.0"
+    "cy:run" : "cypress run" 
   }
 }

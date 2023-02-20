@@ -4,24 +4,25 @@ import * as asserts from '@helpers/asserts.js';
 import {ROUTES} from '@tests/consts/routes.js';
 import * as logindata from '@tests/data/login.data.js';
 import * as login from '@pages/login.page.js';
-import * as logout from '@pages/logout.page.js';
+import * as about from '@pages/about.page.js';
 
 
-describe('Login Positive Case', () => {
+describe('About', () => {
     
     beforeEach(() => {
         route.visit(ROUTES.login);
     });
     
-    it('Should succes login with username data valid "standard_user"', () => {
+    it('As a user, I want to know about the saucedemo.com application', () => {
         // Login
         elements.fillField(login.usernameField, logindata.VALID_LOGIN.username);
         elements.fillField(login.passwordField, logindata.VALID_LOGIN.password);
         elements.click(login.loginButton);
         asserts.shouldContainText(login.title, "Products");
 
-        // Logout
-        elements.click(logout.nbrButton)
-        elements.click(logout.logoutButton)
+        // About
+        elements.click(about.barButton)
+        elements.click(about.aboutButton)
+        
     });
 })

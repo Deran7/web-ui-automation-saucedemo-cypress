@@ -7,5 +7,9 @@ export function fillField(selector, value) {
 }
 
 export function click(selector, ...args) {
-    return cy.get(selector).click(...args);
+    return cy.get(selector).should('be.visible').click(...args);
+}
+
+export function selectDropdown(selector, value) {
+    return cy.get(selector).select(value)
 }

@@ -1,0 +1,1 @@
+export const logoutButton = '#logout_sidebar_link'

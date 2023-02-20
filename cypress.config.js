@@ -20,6 +20,7 @@ module.exports = defineConfig({
             '@helpers': './tests/helpers',
             '@pages' : './tests/pages',
             '@scenarios' : './tests/scenarios',
+            '@data' : './tests/data'
           },
         },
       ]);

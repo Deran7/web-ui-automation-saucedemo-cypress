@@ -1,3 +1,5 @@
 export const ROUTES = {
-    login: "/"
+    login: "/",
+    allitem: "/inventory",
+    logout: "/inventory",
 }
